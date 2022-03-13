@@ -18,6 +18,6 @@ int main(void)
 		}
 		c++;
 	}
-	puthcar('\n');
+	putchar('\n');
 	return (0);
 }
