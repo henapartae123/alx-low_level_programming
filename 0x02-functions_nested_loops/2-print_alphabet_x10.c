@@ -1,21 +1,20 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - block
  * Description: print alphabet in lower case 10x
  * Return: 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	char ch = "a";
+	char ch = 'a';
 	int i = 0;
 
 	for (i = 0; i < 10; i++)
 	{
 		for (ch = 'a'; ch <= 'z'; ch++)
 		{
-			putchar(ch);
+			_putchar(ch);
 		}
-	putchar('\n');
+	_putchar('\n');
 	}
-return (0);
 }
