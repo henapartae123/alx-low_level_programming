@@ -5,9 +5,9 @@
  * Return: 1 if c is a letter, lowercase or uppercase, 0 if otherwise
  */
 int _isalpha(int c)
+{
 
-
-	if c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
@@ -17,6 +17,6 @@ int _isalpha(int c)
 	}
 	else
 	{
-		retutn (0);
+		return (0);
 	} 	
 }
