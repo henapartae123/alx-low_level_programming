@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - concatenates two strings usign 'n' bytes from src
+ * _strncat - concatenates two strings using 'n' bytes from src
  * @dest: string to append
  * @src: string to be appended
  * @n: bytes to use from src
@@ -8,8 +8,7 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
-       	dest_new = 0;
+	int i = 0, dest_new = 0;
 
 	while (dest[i++])
 		dest_new++;
