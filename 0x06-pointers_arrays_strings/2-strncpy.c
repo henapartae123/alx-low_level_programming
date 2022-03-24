@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 /**
  * _strncpy - copies a string
  * @dest: buffer storing the copy
@@ -13,7 +13,7 @@ char *_strncpy(char *dest, char *src, int n)
 	while (src[i++])
 		src_new++;
 
-	for (i = 0; src [i] && i < n; i++)
+	for (i = 0; src[i] && i < n; i++)
 		dest[i] = src[i];
 
 	for (i = src_new; i< n; i++)
