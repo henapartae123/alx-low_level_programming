@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#inlcude < string.h>
+#include <string.h>
 
 /**
  * struct op - struct op
