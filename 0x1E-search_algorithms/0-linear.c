@@ -1,4 +1,5 @@
 #include "search_algos.h"
+
 /**
  * linear_search - search element in unsorted array
  * @array: array to be searched from

@@ -1,4 +1,5 @@
 #include "search_algos.h"
+
 /**
  * jump_search - search sorted list using jump algo
  * @array: array to be searched
